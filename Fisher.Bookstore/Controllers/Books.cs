@@ -10,20 +10,20 @@ namespace Fisher.Bookstore.Controllers
         [Route("index")]
         public IActionResult Index()
         {
-            return View("Books");
+            return View();
 
            
         }
         [Route("new")]
         public IActionResult New()
         {
-            return View("Books");
+            return View();
             
         }
         [Route("best-sellers")]
         public IActionResult Best()
         {
-            return View("Books/best-sellers Page");
+            return View();
             
         }
     }

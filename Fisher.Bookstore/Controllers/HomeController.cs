@@ -7,7 +7,7 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return View("Home");
+            return View();
 
         }
     }
